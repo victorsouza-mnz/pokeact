@@ -1,0 +1,11 @@
+.Scroll::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.Scroll {
+    overflow-y: scroll;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    height: 630px;
+}
