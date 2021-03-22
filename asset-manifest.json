@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/pockeact/static/css/main.9bcde936.chunk.css",
-    "main.js": "/pockeact/static/js/main.9cb54332.chunk.js",
-    "main.js.map": "/pockeact/static/js/main.9cb54332.chunk.js.map",
-    "runtime-main.js": "/pockeact/static/js/runtime-main.0270892d.js",
-    "runtime-main.js.map": "/pockeact/static/js/runtime-main.0270892d.js.map",
-    "static/css/2.31461e4f.chunk.css": "/pockeact/static/css/2.31461e4f.chunk.css",
-    "static/js/2.93cf0af7.chunk.js": "/pockeact/static/js/2.93cf0af7.chunk.js",
-    "static/js/2.93cf0af7.chunk.js.map": "/pockeact/static/js/2.93cf0af7.chunk.js.map",
-    "static/js/3.52ac2274.chunk.js": "/pockeact/static/js/3.52ac2274.chunk.js",
-    "static/js/3.52ac2274.chunk.js.map": "/pockeact/static/js/3.52ac2274.chunk.js.map",
-    "index.html": "/pockeact/index.html",
-    "static/css/2.31461e4f.chunk.css.map": "/pockeact/static/css/2.31461e4f.chunk.css.map",
-    "static/css/main.9bcde936.chunk.css.map": "/pockeact/static/css/main.9bcde936.chunk.css.map",
-    "static/js/2.93cf0af7.chunk.js.LICENSE.txt": "/pockeact/static/js/2.93cf0af7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/pockeact/static/media/PokemonSolidNormal.fc9a8fad.eot"
+    "main.css": "/pokeact/static/css/main.afa66388.chunk.css",
+    "main.js": "/pokeact/static/js/main.9cb54332.chunk.js",
+    "main.js.map": "/pokeact/static/js/main.9cb54332.chunk.js.map",
+    "runtime-main.js": "/pokeact/static/js/runtime-main.8456fa85.js",
+    "runtime-main.js.map": "/pokeact/static/js/runtime-main.8456fa85.js.map",
+    "static/css/2.31461e4f.chunk.css": "/pokeact/static/css/2.31461e4f.chunk.css",
+    "static/js/2.93cf0af7.chunk.js": "/pokeact/static/js/2.93cf0af7.chunk.js",
+    "static/js/2.93cf0af7.chunk.js.map": "/pokeact/static/js/2.93cf0af7.chunk.js.map",
+    "static/js/3.52ac2274.chunk.js": "/pokeact/static/js/3.52ac2274.chunk.js",
+    "static/js/3.52ac2274.chunk.js.map": "/pokeact/static/js/3.52ac2274.chunk.js.map",
+    "index.html": "/pokeact/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/pokeact/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.afa66388.chunk.css.map": "/pokeact/static/css/main.afa66388.chunk.css.map",
+    "static/js/2.93cf0af7.chunk.js.LICENSE.txt": "/pokeact/static/js/2.93cf0af7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/pokeact/static/media/PokemonSolidNormal.fc9a8fad.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.0270892d.js",
+    "static/js/runtime-main.8456fa85.js",
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.93cf0af7.chunk.js",
-    "static/css/main.9bcde936.chunk.css",
+    "static/css/main.afa66388.chunk.css",
     "static/js/main.9cb54332.chunk.js"
   ]
 }
