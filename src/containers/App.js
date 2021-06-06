@@ -11,6 +11,7 @@ class App extends Component {
         super()
         this.state = {
             pokemons : [],
+            pokemonsD : [],
             searchField : '',   
         }
     }
@@ -22,18 +23,25 @@ class App extends Component {
 
     componentDidMount(){
 
+
         fetch('https://pokeapi.co/api/v2/pokemon').then(response => {
             return response.json()
-        }).then(pokemons => this.setState({pokemons: pokemons.results})) 
+        }).then(pokemons => {this.setState({pokemons: pokemons.results})})
+        .then(() => {for (var i = 0; i< this.state.pokemons.length; i++){ 
+            fetch(this.state.pokemons[i].url).then(response => response.json()).then(pokemonsD => {this.setState({pokemonsD: [...this.state.pokemonsD, {name: pokemonsD.name, weight: pokemonsD.weight} ]})})
+        }})
+        
+        
     }
 
 
     render() {
-        const filteredPokemons = this.state.pokemons.filter( (el) => {
+
+        const filteredPokemons = this.state.pokemonsD.filter( (el) => {
             return el.name.toLowerCase().includes(this.state.searchField.toLowerCase()) ? true : false 
         })
 
-        return !this.state.pokemons.length ?
+        return !this.state.pokemonsD.length ?
         <div><h1>Loading</h1></div> 
         : 
         (

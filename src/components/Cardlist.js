@@ -13,7 +13,7 @@ const Cardlist = ({pokemons}) => {
                         <Card 
                         key={i} 
                         name={pokemons[i].name} 
-                        type = {pokemons[i].type} 
+                        weight = {pokemons[i].weight} 
                         />
                     )
                 })
